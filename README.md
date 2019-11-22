@@ -4,6 +4,8 @@ Incredibly simple and lightweight HTML forms validator using Javascript and nati
 # How it works?
 Very simple! it uses the native `setCustomValidity` function to make the browser display the error messages without any extra html elements.
 
+This is not a full library/framework, is just a display of how you don't always need one, sometimes a bit of creativity and research goes a long way.
+
 # How to use it?
 Just add the Javascript file in your header or honestly just copy it, it is very short and simple.
 
