@@ -12,7 +12,7 @@ Then simply initiate it, here's an example :
 ```javascript
 new FormValidator('my-form-id', [
     {
-        //Here's a function that should return true if an error is to be shown
+        //Function that should return true if an error is to be shown
         condition : elements => elements.start_date.valueAsDate >= elements.end_date.valueAsDate,
         //Element where the message will be displayed
         element : 'start_date',
